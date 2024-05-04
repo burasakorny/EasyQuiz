@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>ระบบข้อสอบอย่างง่าย Simple Quiz</title>
+   <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+   <div class="quiz-container">
+       <h1></h1>
+       <p id="question1">1.PIM ย่อมาจากอะไร ?</p>
+       <button class="button" onclick="checkAnswer1('a')">A) พีไอเอ็ม</button>
+       <button class="button" onclick="checkAnswer1('b')">B) ปิ๋ม</button>
+       <button class="button" onclick="checkAnswer1('c')">C) พิม</button>
+       <button class="button" onclick="checkAnswer1('d')">D) ภีม</button>
+       <p id="result1"></p>
+       <br>
+
+       <p id="question2">2.RMUTP หมายถึงอะไร ?</p>
+       <button class="button" onclick="checkAnswer2('a')">A) มทร.พระนคร</button>
+       <button class="button" onclick="checkAnswer2('b')">B) มทร.สุวรรณภูมิ</button>
+       <button class="button" onclick="checkAnswer2('c')">C) มทร.ล้านนา</button>
+       <button class="button" onclick="checkAnswer2('d')">D) มทร.อีสาน</button>
+       <p id="result2"></p>
+       <br>
+
+       <p>ผลสอบ</p>
+       <button class="button" onclick="showScore()">คะแนน</button>
+       <p id="score"></p>
+
+
+   </div>
+   <script src="index.js" charset="utf-8"></script>
+</body>
+</html>
